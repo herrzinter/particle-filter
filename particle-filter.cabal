@@ -1,6 +1,6 @@
 name:                particle-filter
 version:             0.1.0.0
-synopsis:            Simple project template from stack
+synopsis:            Implementation of a particle filter in haskell
 description:         Please see README.md
 homepage:            https://github.com/herrzinter/particle-filter#readme
 license:             GPLv3
