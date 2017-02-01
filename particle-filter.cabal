@@ -1,0 +1,26 @@
+name:                particle-filter
+version:             0.1.0.0
+synopsis:            Simple project template from stack
+description:         Please see README.md
+homepage:            https://github.com/herrzinter/particle-filter#readme
+license:             GPLv3
+license-file:        LICENSE
+author:              Christoph Weyer
+maintainer:          herrzinter@yav.in
+copyright:           2017 Christoph Weyer
+category:            Scientific
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable particle-filter
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       
+        base >= 4.7 && < 5
+    ,   aeson >= 0.11.3.0
+    ,   lens >= 4.14
+    ,   hmatrix >= 0.18
+    ,   MonadRandom >= 0.4.2.3
+    ,   text >= 1.2.2.1
